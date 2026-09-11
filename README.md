@@ -61,3 +61,21 @@ It does not create or host the portal.
 - Expected and observed test results.
 - Screenshots with personal information removed.
 - Troubleshooting and testing limitations.
+- - Confirmed Supported account types shows “My organization only.”
+  - 
+  - ## Activity 2 — Configure the redirect URI
+
+### Actions completed
+Added a Single-page application platform with this redirect URI:
+http://localhost:3000/
+
+### Verification
+Confirmed the URI remained listed after refreshing
+the Authentication page.
+
+### What I learned
+The redirect URI is where Entra returns the browser
+after authentication.
+
+### Testing status
+The portal is not running yet. Sign-in has not been tested.
