@@ -37,6 +37,26 @@ Group-based application assignment requires a premium licence.
 ## Evidence plan
 For each activity, record:
 - The requirement and reason for the change.
+- ## Activity 1 — Register the application
+
+### Business requirement
+Prepare an application to use sign-in through our lab directory.
+
+### Actions completed
+Registered Adera Employee Portal Lab as a single-tenant application.
+
+### Verification
+Opened the application's Overview page and confirmed:
+- Display name: Adera Employee Portal Lab
+- Supported account types: Single tenant
+
+### Current limitations
+The portal has not been built.
+Redirect URI, user assignments, and sign-in tests are pending.
+
+### What I learned
+App registration establishes the application's identity in Entra.
+It does not create or host the portal.
 - Configuration steps actually completed.
 - Expected and observed test results.
 - Screenshots with personal information removed.
