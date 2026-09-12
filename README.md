@@ -107,3 +107,20 @@ Checked the application's Users and groups list:
 ### Testing status
 Application assignments are verified.
 Successful and denied sign-in tests are still pending.
+
+## Test 1 — Assigned user
+
+- User: portal.allowed
+- Application assignment: Present
+- Expected: Successful sign-in
+- Observed: Returned to the portal as portal.allowed
+- Result: Pass
+- ## Test 2 — Unassigned user
+
+- User: portal.unassigned
+- Application assignment: Absent
+- Expected: Sign-in denied because assignment is required
+- Observed: Entra returned AADSTS50105, explicitly stating
+  that the user lacked an application assignment
+- Result: Pass
+- Test time: 2026-09-12 08:57:40 UTC
