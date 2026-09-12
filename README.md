@@ -79,3 +79,16 @@ after authentication.
 
 ### Testing status
 The portal is not running yet. Sign-in has not been tested.
+## Activity 3 — Require application assignment
+
+### Change
+Set “Assignment required?” to Yes for Adera Employee Portal Lab.
+
+### Verification
+Refreshed Properties and confirmed the setting remained Yes.
+
+### Purpose
+Require an application assignment before a user can sign in.
+
+### Testing status
+Allowed and denied sign-in tests are still pending.
