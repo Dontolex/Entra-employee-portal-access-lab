@@ -92,3 +92,18 @@ Require an application assignment before a user can sign in.
 
 ### Testing status
 Allowed and denied sign-in tests are still pending.
+
+## Activity 4 — Assign the test user
+
+### Actions completed
+- Created Portal Allowed and Portal Unassigned as ordinary users.
+- Assigned only Portal Allowed to Adera Employee Portal Lab.
+
+### Verification
+Checked the application's Users and groups list:
+- Portal Allowed was listed.
+- Portal Unassigned was absent.
+
+### Testing status
+Application assignments are verified.
+Successful and denied sign-in tests are still pending.
