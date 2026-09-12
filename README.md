@@ -107,7 +107,7 @@ Checked the application's Users and groups list:
 ## Testing status
 - Assigned-user sign-in: Passed.
 - Unassigned-user sign-in: Passed — AADSTS50105.
-- Sign-in after assignment removal: Pending.
+- Sign-in after assignment removal: Passed — AADSTS50105.
 
 ## Test 1 — Assigned user
 
@@ -125,4 +125,16 @@ Checked the application's Users and groups list:
   that the user lacked an application assignment
 - Result: Pass
 - Test time: 2026-09-12 08:57:40 UTC
-- 
+
+- ## Test 3 — Sign-in after assignment removal
+
+- User: portal.allowed
+- Account: Remained enabled
+- Application assignment: Removed and absence verified
+- Expected: New sign-in denied
+- Observed: AADSTS50105 — user lacked an application assignment
+- Result: Pass
+- Test time: 2026-09-12 09:14:40 UTC
+
+This test verifies denial of a new sign-in.
+It does not demonstrate that an existing session ended.
