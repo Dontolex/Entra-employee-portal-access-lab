@@ -104,9 +104,10 @@ Checked the application's Users and groups list:
 - Portal Allowed was listed.
 - Portal Unassigned was absent.
 
-### Testing status
-Application assignments are verified.
-Successful and denied sign-in tests are still pending.
+## Testing status
+- Assigned-user sign-in: Passed.
+- Unassigned-user sign-in: Passed — AADSTS50105.
+- Sign-in after assignment removal: Pending.
 
 ## Test 1 — Assigned user
 
@@ -124,3 +125,4 @@ Successful and denied sign-in tests are still pending.
   that the user lacked an application assignment
 - Result: Pass
 - Test time: 2026-09-12 08:57:40 UTC
+- 
